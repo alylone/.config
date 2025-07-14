@@ -7,7 +7,7 @@
 
     ```zsh
     cd ~
-    mkdir -p config
+    git clone git@github.com:alylone/.config.git
     ```
 
 2. 复制配置文件，到项目目录
@@ -19,9 +19,10 @@
 3. 通过git，将新配置文件进行`push`
 
     ```zsh
+    cd config
     git push
     ```
-
+    
     
 
 **将配置文件，移动到windows桌面：**
